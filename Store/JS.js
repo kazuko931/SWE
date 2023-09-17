@@ -17,5 +17,8 @@ function addToCart(button) {
     var total = document.getElementById("total");
     var current = parseFloat(total.textContent);
     total.textContent = (current + price).toFixed(2);
+  
+    // Show an alert message that the product was added to the cart
+    alert(name + " was added to your cart!");
   }
   
