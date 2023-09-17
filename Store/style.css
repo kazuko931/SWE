@@ -14,26 +14,6 @@ h1 {
     display: flex;
     flex-wrap: wrap;
 }
-.product {
-    width: 25%;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 1px solid black;
-}
-.product h3 {
-    text-align: center;
-}
-.product p {
-    text-align: justify;
-}
-.product button {
-    display: block;
-    width: 100%;
-    padding: 5px;
-    background-color: green;
-    color: white;
-    border: none;
-}
 .menu {
     width: 100%;
     background-color: darkblue;
@@ -55,7 +35,30 @@ h1 {
 .menu a:hover {
     background-color: lightblue;
 }
+.product {
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.product h3 {
+    text-align: center;
+}
+.product p {
+    text-align: justify;
+}
+.product button {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+}
 .product img {
     width: 300px;
     height: 200px;
+}
+.product button:hover {
+    box-shadow: 0 0 10px white;
 }

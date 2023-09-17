@@ -3,8 +3,8 @@ function addToCart(button) {
     // Get the product name and price from the button's parent element
     var product = button.parentElement;
     var name = product.querySelector("h3").textContent;
-    var price = parseFloat(product.querySelector("p").textContent);
-  
+    var price = parseFloat(product.querySelector("span").textContent);
+      
     // Create a new list item for the cart with the product name and price
     var item = document.createElement("li");
     item.textContent = name + " - $" + price.toFixed(2);
