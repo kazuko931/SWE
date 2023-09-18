@@ -1,22 +1,11 @@
-/* Style the grid container */
-.grid-container {
-    /* Display the element as a grid */
-    display: grid;
-    /* Set the number and size of columns */
-    grid-template-columns: repeat(2, 1fr);
-    /* Set the number and size of rows */
-    grid-template-rows: repeat(2, 100px);
-    /* Set the gap between grid items */
-    gap: 10px;
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
   }
   
-  /* Style the grid items */
-  .grid-item {
-    /* Set the background color */
-    background-color: lightblue;
-    /* Set the text alignment */
-    text-align: center;
-    /* Set the font size */
-    font-size: 20px;
+  td, th {
+    border: 1px solid;
+    text-align: left;
+    padding: 8px;
   }
-  
