@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    background-color: aqua;
+    align-items: center;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+dt {
+    width: 25%;
+}
+
+dd {
+    width: 75%;
+}
+.comp {
+    background-color:aqua;
+}
